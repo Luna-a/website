@@ -1,0 +1,308 @@
+/*
+Color scheme 1
+grain: #D7CEC7
+blackboard: #565656	
+oxblood: #76323F
+tan: #C09F80
+
+
+.frontContainer{
+	width: 800px;
+	height: 500px;
+	border: 0px;
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.homeContainer{
+	/*width: 800px;
+	height: 500px;
+	border: 1px solid red;
+	display: block;*/
+/*	position: relative;
+	left: 10%;
+	right: 30px;
+	border: 3px white;
+}*/
+
+/************ 1 background ****************/
+/*all*/
+body{
+	font-size: 20px;
+	/*color: white;*/
+	background-color: #C5C1C0;
+	/*background-color: 8c8c8c;*/
+	/*background-color: #cce0ff;*/
+	font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3{
+	color: white;
+}
+
+/*index*/
+img.login{
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: auto;
+}
+
+/*details*/
+img.p1{
+	width: 100%;	
+	float: left;
+	margin-left: 25px;
+	margin-right: 20px;
+	margin-top: 10px;
+	
+	
+	
+/*	float: left;*/
+/*	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: auto;*/
+}
+
+/*
+img.2{
+	max-width: 30%;
+	max-height: 30%;	
+}
+
+img.3{
+	max-width: 600px;
+	max-height: 600px;		
+}
+*/
+div.imgContainer{
+	max-width: 45%;
+	
+}
+
+/*
+div.leftFormat{
+	float: left;
+/*	margin-left: 30px;
+	margin-right: 0;
+}*/
+/*
+div.rightFormat{
+	float: right;
+}
+*/
+
+img.imgFormat{
+	margin: 10px;
+}
+
+
+/*test for multiple images to be in same place | not in use */
+/*
+img.details2{
+	max-width: 600px;
+	max-height: 600px;
+	position: absolute;
+	left: 8px;
+	top: 75px;
+}
+*/
+a{
+	color: white;
+}
+
+/*makes "details" black in home pages*/
+a.classTable{
+	color: black;
+}
+
+/*makes links in details.php black*/
+#blackLink{
+	color: black;
+}
+
+
+/*details.php*/
+table.infoTableHead{
+	min-width: 300px;
+	width: 45%;
+	margin-right: 50px;
+	margin-left: auto;
+	margin-top: 20px;
+	font-size: 24px;
+}
+
+/*details.php*/
+table.infoTableBody{
+	min-width: 300px;
+	width: 45%;
+	margin-right: 50px;
+	margin-left: auto;
+}
+
+/*details.php*/
+table.infoTableFoot{
+	min-width: 300px;
+	width: 45%;
+	margin-right: 50px;
+	margin-left: auto;
+}
+
+/**********************************
+Tables for repair and payment info in details.php
+***********************************/
+/*
+header for Repair List in details.php
+*/
+div.detailsTableTitle{
+	width: 45%;
+	margin-right: 50px;
+	margin-left: auto;
+	margin-top: 35px;
+	font-size: 2.2em;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+
+/*table.detailsTableHead{
+	min-width: 300px;
+	width: 45%;
+	margin-right: 50px;
+	margin-left: auto;
+	margin-top: 35px;
+	font-size: 24px;	
+}*/
+
+/*
+header for Repair List in details.php
+Needs to be same color as overall background
+*/
+thead.detailsHead{
+	background-color: #1f1f2d;
+	font-size: 26px;
+}
+
+div.detailsTableBox{	
+	float: right;	
+	min-width: 300px;
+	width: 45%;	
+	margin-right: 50px;
+	margin-left: auto;
+	margin-top: 5px;
+}
+	
+/* addBuyer.php */	
+div.buyerTableBox{
+	max-width: 90%;	
+}	
+	
+	
+/*all*/
+div.logout{
+	text-align: right;
+	font-size: 14px;	
+	color: white;
+	/*float: right;*/
+}
+
+/*not in use*/
+div.head{
+	text-align: center;
+	color: white;
+}
+
+/*table in details.php*/
+table{
+	background-color: #ffffff;
+	border-collapse: separate;
+	border-spacing: 0;	
+	/*width: 90%;*/
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+th,td {
+	padding: 10px 15px;	/* might not need this line */
+	
+}
+
+/******************** 2 *********************/
+/*home.php*/
+thead, tfoot{
+	background: #111;
+	/*background: #565656;*/
+	/*background: #0d0d0d;*/
+	color: #fff;
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	*/
+	/*background: linear-gradient(#ffffff, #565656, #565656);*/
+	background:linear-gradient(to bottom, #737373 0%, #111 100%)
+}
+
+
+/*
+tbody tr:nth-child(even){
+	background: #bfbfbf;
+}*/
+
+/*addVehicle.php*/
+
+
+td{
+  border-bottom: 1px solid #cecfd5;
+  border-right: 1px solid #cecfd5;
+}
+/*
+td:first-child{
+	border-left: 1px solid #595959;
+}
+*/
+div.top{
+	font-size: 22px;
+	color: white;
+}
+
+/* payment.php */
+div.payment{
+	font-size: 16px;
+	color: white;
+}
+
+/*addVehicle.php*/
+/*addBuyer.php*/
+table.addInfo{
+	background-color: #ffffff;
+	border-collapse: collapse;
+	border-spacing: 1;	
+	border:1;
+	width:30%;
+}
+
+/*addVehicle.php*/
+input{
+	text-align: center;
+}
+
+/*addVehicle.php*/
+div.tableDateText{
+	font-size: 13px;
+	color: #808080
+}
+
+table.addInfo td{
+  border-bottom: 1px solid #cecfd5;
+  border-right: 1px solid #1f1f2d;
+  /*border-right: 1px solid #cecfd5;*/
+}
+
+/*addBuyer.php*/
+textarea.addComments{
+	text-align: center;
+}
+
+
+
